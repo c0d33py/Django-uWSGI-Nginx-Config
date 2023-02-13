@@ -56,10 +56,6 @@ touch-reload = %(base)
 post-buffering = 204800
 # Set the socket timeout
 socket-timeout = 300
-# Set the socket queue size
-reload-mercy = 8
-# Worker reload on as
-reload-on-as = 512
 # Set the max worker lifetime
 max-worker-lifetime = 300
 # Respawn workers when memory limit is exceeded
